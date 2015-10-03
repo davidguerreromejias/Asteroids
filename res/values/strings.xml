@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Arrancar">Jugar</string>
+    <string name="Configurar">Configurar</string>
+    <string name="Acercade">Acerca de </string>
+    <string name="Puntuaciones">Puntuacions</string>
+    <string name="titulo">Asteroids</string>
+    <string name="gameover">Game Over!</string>
+    <string name="jugardenuevo">Jugar de Nou</string>
+    <string name="guardapuntuacio">Guarda la teva puntuació</string>
+    <string name="sortir">Sortir</string>
+
+    <color name="white">#FFFFFF</color>
+
+    <string name="scoreTitle">Score</string>
+    <string name="score">0</string>
+    <string name="boost">Polsant aquest botó,
+         la nau rep una acceleració finita.</string>
+    <string name="shoot">Polsant aquest botó,
+         es dispara un míssil.</string>
+    <string name="right">Polsant aquest botó,
+         la nau gira en sentit horari.</string>
+    <string name="left">Polsant aquest botó,
+         la nau gira en sentit antihorari.</string>
+    <string name="textInstruccio"></string>
+
+</resources>

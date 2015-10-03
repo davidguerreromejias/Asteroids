@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context=".Asteroids" >
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_arrodonit"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/Puntuaciones" />
+
+    <Button
+        android:id="@+id/instruccions"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/Button04"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_arrodonit"
+        android:layout_centerHorizontal="true"
+        android:onClick="lanzarInstruccions"
+        android:text="Instruccions" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/instruccions"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_arrodonit"
+        android:layout_centerHorizontal="true"
+        android:onClick="lanzarJuego"
+        android:text="@string/Arrancar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="ASTEROIDS"
+        android:textColor="#33cc00"
+        android:textSize="48sp" />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.davidguerrero.asteroids.VistaJuego
+        android:id="@+id/VistaJuego"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondojuegopantalla"
+        android:focusable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rel"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/der"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/boton" />
+
+        <ImageButton
+            android:id="@+id/bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/botonamarillo" />
+
+        <ImageButton
+            android:id="@+id/izq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/der"
+            android:background="@android:color/transparent"
+            android:src="@drawable/boton" />
+
+        <ImageButton
+            android:id="@+id/sho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/bo"
+            android:background="@android:color/transparent"
+            android:src="@drawable/botonamarillo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/scoreTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scoreTitle" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutBotons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Tornar"
+                android:layout_width="86dp"
+                android:layout_height="64dp"
+                android:background="@drawable/button_arrodonit"
+                android:text="Tornar" />
+
+            <Button
+                android:id="@+id/Sortir"
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button_arrodonit"
+                android:layout_height="64dp"
+                android:text="Sortir" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
